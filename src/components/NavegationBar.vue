@@ -46,8 +46,10 @@
                 }
             },
             toggleActive(){
-                 document.getElementById("nav").children.forEach(element=>{element.style.display="flex"})
-                
+                let data = document.getElementById("nav").children;
+                for(let i = 0; i<data.length;i++){
+                    data[i].style.display = "flex";
+                }
                 this.active = !this.active
                 if(this.active){
                     document.getElementById("nav").style.transform = "translateX(0)";
