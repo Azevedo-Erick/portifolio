@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <vue-typer
-    class="tp"
+    id="tp"
       :text="[
         'Desenvolvedor Nodejs',
         'Desenvolvedor Vuejs',
@@ -25,9 +25,9 @@
       Apenas um estudante de Sistemas de Informação, interessado pelo
       desenvolvimento web , focado em mobile com Flutter e apaixonado por games.
     </p>
-    <button class="download-cv" onClick="console.log('hello')">
-      Download CV
-    </button>
+    <a class="download-cv" href="https://drive.google.com/file/d/1CCY4dwjKc-5wyjNSBrfiRBah6HMgFzvk/view?usp=sharing" target="_blank">
+       Download CV
+    </a>
     <div class="particles">
       <vue-particles
         color="#dedede"
@@ -103,6 +103,7 @@ export default {
   color: #38b6ff;
   text-shadow: 1.5px 1.5px#000000;
   }
+  
 .custom.char.selected,
 .custom.caret {
   box-shadow: #000000 1.5px 1.5px;
@@ -111,6 +112,9 @@ export default {
 .custom.caret {
   font-weight: bold;
   width: 2px;
+}
+.download-cv:link{
+  text-decoration: none;
 }
 .download-cv {
   font-family: "Bebas Neue";
