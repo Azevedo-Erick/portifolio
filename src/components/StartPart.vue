@@ -1,7 +1,6 @@
 <template>
   <div class="container">
-    <vue-typer
-    id="tp"
+    <!-- <vue-typer
       :text="[
         'Desenvolvedor Nodejs',
         'Desenvolvedor Vuejs',
@@ -19,7 +18,10 @@
       erase-style="select-all"
       :erase-on-complete="true"
       caret-animation="expand"
-    ></vue-typer>
+    ></vue-typer> -->
+    <VueTypedJs class="typewritter" :strings="[' Nodejs', 'Vuejs', 'Flutter', 'Java']" :loop="true">
+      <h1>Desenvolvedor <span class="typing"></span></h1>
+    </VueTypedJs>
     <p class="name-presentation">Erick Azevedo Sousa</p>
     <p class="description">
       Apenas um estudante de Sistemas de Informação, interessado pelo
@@ -52,11 +54,11 @@
 </template>
 
 <script>
-import { VueTyper } from "vue-typer";
+import {VueTypedJs}  from "vue-typed-js";
 
 export default {
   components: {
-    VueTyper
+    VueTypedJs
   },
 };
 </script>
@@ -94,25 +96,14 @@ export default {
   text-align: start;
   text-shadow: 1.1px 1.1px#000000;
 }
-.vue-typer {
+.typewritter {
   margin: 45px 0 5px 0;
   font-size: 28px;
   font-family: "Anonymous Pro", monospace;
-}
-.custom.char {
   color: #38b6ff;
   text-shadow: 1.5px 1.5px#000000;
-  }
-  
-.custom.char.selected,
-.custom.caret {
-  box-shadow: #000000 1.5px 1.5px;
-  background-color: #264f78;
 }
-.custom.caret {
-  font-weight: bold;
-  width: 2px;
-}
+
 .download-cv:link{
   text-decoration: none;
 }

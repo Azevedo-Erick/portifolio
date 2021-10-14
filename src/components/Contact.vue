@@ -117,6 +117,13 @@ a:hover{
   opacity: 0.8;
 }
 @media (max-width:630px){
+    .container-contact{
+        width: 95%;
+      padding: 30px 0px;
+    }
+    .icon{
+      width: 40px;
+    }
       .social-handler{
         flex-direction: row;
         padding:45px;
