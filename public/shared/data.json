@@ -1,0 +1,274 @@
+{
+    "projects":[
+        {
+            "name":"Vue Pokedex",
+            "url":"https://github.com/Azevedo-Erick/Pokedex",
+            "description":"Um projeto inicial em VueJs visando explorar um pouco do framework, utilizei o bulma framework para o css",
+            "techs":[
+                {
+                    "name":"VueJs",
+                    "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/vuejs/vuejs-plain.svg"
+                },
+                {
+                    "name":"HTML5",
+                    "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/html5/html5-plain.svg"
+                },
+                {
+                    "name":"CSS3",
+                    "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/css3/css3-plain.svg"
+                },
+                {
+                    "name":"JavaScript",
+                    "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/javascript/javascript-plain.svg"
+                }
+
+            ]
+        },
+        {
+            "name":"ToDo React App",
+            "url":"https://github.com/Azevedo-Erick/To-Do_React-App",
+            "description":"Um projeto inicial em ReactJs visando explorar um pouco do framework e entender melhor conceitos básicos do JavaScript, assim como o localStorage",
+            "techs":[
+                {
+                    "name":"ReactJs",
+                    "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/react/react-original.svg"
+                },
+                {
+                    "name":"HTML5",
+                    "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/html5/html5-plain.svg"
+                },
+                {
+                    "name":"CSS3",
+                    "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/css3/css3-plain.svg"
+                },
+                {
+                    "name":"JavaScript",
+                    "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/javascript/javascript-plain.svg"
+                }
+            ]
+        },
+        {
+            "name":"A2 - Front End : MWTECH",
+            "url":"https://github.com/Azevedo-Erick/A2-Front-End",
+            "description":"Projeto feito para obtenção de nota na disciplina de front end ministrada pelo professor Danilo Queiroz na UNITINS",
+            "techs":[
+                {
+                    "name":"HTML5",
+                    "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/html5/html5-plain.svg"
+                },
+                {
+                    "name":"CSS3",
+                    "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/css3/css3-plain.svg"
+                },
+                {
+                    "name":"JavaScript",
+                    "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/javascript/javascript-plain.svg"
+                }
+            ]
+        },
+        {
+            "name":"Login Instagram Clone - DIO",
+            "url":"https://github.com/Azevedo-Erick/instagram-dio",
+            "description":"Clonagem da tela de login do instagram para aprendizagem de conceitos de flexbox, o código é copiado do curso ministrado na DIO",
+            "techs":[
+                {
+                    "name":"HTML5",
+                    "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/html5/html5-plain.svg"
+                },
+                {
+                    "name":"CSS3",
+                    "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/css3/css3-plain.svg"
+                }
+            ]
+        },
+        {
+            "name":"Flutter QuizApp - NLW5",
+            "url":"https://github.com/Azevedo-Erick/flutter-quizapp-NLW5",
+            "description":"Projeto feito ao longo da Next Level Week 5 (NLW5) na trilha de flutter",
+            "techs":[
+                {
+                    "name":"Flutter",
+                    "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/flutter/flutter-plain.svg"
+                }
+            ]
+        },
+        {
+            "name":"Flutter - IMC calculator",
+            "url":"https://github.com/Azevedo-Erick/flutter-imc-calculator",
+            "description":"Clonagem de um aplicativo para calcular o IMC (indice de massa corporal) de uma aula do youtube",
+            "techs":[
+                {
+                    "name":"Flutter",
+                    "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/flutter/flutter-plain.svg"
+                }
+            ]
+        },
+        {
+            "name":"Flutter - WheaterApp",
+            "url":"https://github.com/Azevedo-Erick/flutter-weather-app",
+            "description":"Clonagem de um aplicativo de clima de uma aula do youtube, mas com certas adições e alterações",
+            "techs":[
+                {
+                    "name":"Flutter",
+                    "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/flutter/flutter-plain.svg"
+                }
+            ]
+        },
+        {
+            "name":"Flutter - Yes/No App",
+            "url":"https://github.com/Azevedo-Erick/flutter-yes-no-webapp",
+            "description":"Clonagem de um aplicativo que faz a brincadeira yes/no de uma aula do youtube, mas com foco em flutter web",
+            "techs":[
+                {
+                    "name":"Flutter",
+                    "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/flutter/flutter-plain.svg"
+                }
+            ]
+        },
+        {
+            "name":"Flutter - Delivery App UI",
+            "url":"https://github.com/Azevedo-Erick/flutter-food-delivery-ui",
+            "description":"Clonagem de uma interface de usuário de um aplicativo de entregas de um curso da Udemy",
+            "techs":[
+                {
+                    "name":"Flutter",
+                    "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/flutter/flutter-plain.svg"
+                }
+            ]
+        },
+        {
+            "name":"Flutter - Budget App UI",
+            "url":"https://github.com/Azevedo-Erick/flutter-budget-ui",
+            "description":"Clonagem de uma interface de usuário de um aplicativo para controle de gastos de um curso da Udemy",
+            "techs":[
+                {
+                    "name":"Flutter",
+                    "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/flutter/flutter-plain.svg"
+                }
+            ]
+        },
+        {
+            "name":"Files Upload - NodeJs",
+            "url":"https://github.com/Azevedo-Erick/files-upload-nodejs",
+            "description":"Uma pequena aplicação que envia arquivos para uma pasta local, uma brincadeira com o filesystem do nodeJs",
+            "techs":[
+                {
+                    "name":"NodeJs",
+            "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/nodejs/nodejs-plain.svg"
+                }
+            ]
+        },
+        {
+            "name":"CRUD ESIG",
+            "url":"https://github.com/Azevedo-Erick/crud-esig",
+            "description":"Desafio técnico proposto pelo ESIG, uma aplicação JSF que usasse o PostgreSQL para persistir dados",
+            "techs":[
+                {
+                    "name":"Java",
+                    "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/java/java-plain.svg"
+                },
+                {
+                    "name":"PostgreSQL",
+                    "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/postgresql/postgresql-plain.svg"
+                },
+                {
+                    "name":"HTML5",
+                    "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/html5/html5-plain.svg"
+                },
+                {
+                    "name":"CSS3",
+                    "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/css3/css3-plain.svg"
+                }
+            ]
+        },
+        {
+            "name":"JSF TODO",
+            "url":"https://github.com/Azevedo-Erick/jsf-todo",
+            "description":"Pequena aplicação de lista de tarefas feita com JSF e PostgreSQL.",
+            "techs":[
+                {
+                    "name":"Java",
+                    "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/java/java-plain.svg"
+                },
+                {
+                    "name":"PostgreSQL",
+                    "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/postgresql/postgresql-plain.svg"
+                },
+                {
+                    "name":"HTML5",
+                    "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/html5/html5-plain.svg"
+                },
+                {
+                    "name":"CSS3",
+                    "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/css3/css3-plain.svg"
+                },
+                {
+                    "name":"JavaScript",
+                    "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/javascript/javascript-plain.svg"
+                }
+            ]
+        }
+    ],
+    "languages":[
+        {
+            "name":"NodeJs",
+            "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/nodejs/nodejs-plain.svg"
+        },
+        {
+            "name":"Flutter",
+            "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/flutter/flutter-plain.svg"
+        },
+        {
+            "name":"Docker",
+            "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/docker/docker-plain.svg"
+        },
+        {
+            "name":"Java",
+            "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/java/java-plain.svg"
+        },
+        {
+            "name":"Git",
+            "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/git/git-plain.svg"
+        },
+        {
+            "name":"Bash",
+            "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/bash/bash-plain.svg"
+        },
+        {
+            "name":"Vue",
+            "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/vuejs/vuejs-plain.svg"
+        },
+        {
+            "name":"HTML5",
+            "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/html5/html5-plain.svg"
+        },
+        {
+            "name":"CSS3",
+            "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/css3/css3-plain.svg"
+        },
+        {
+            "name":"JavaScript",
+            "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/javascript/javascript-plain.svg"
+        },
+        {
+            "name":"MySQL",
+            "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/mysql/mysql-plain.svg"
+        },
+        {
+            "name":"PostgreSQL",
+            "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/postgresql/postgresql-plain.svg"
+        },
+        {
+            "name":"Inkscape",
+            "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/inkscape/inkscape-plain.svg"
+        },
+        {
+            "name":"Yarn",
+            "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/yarn/yarn-original.svg"
+        },
+        {
+            "name":"Sass",
+            "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/sass/sass-original.svg"
+        }
+    ]
+}
