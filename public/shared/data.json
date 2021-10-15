@@ -216,20 +216,8 @@
                 {
                     "name":"Java",
                     "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/java/java-plain.svg"
-                },
-                {
-                    "name":"PostgreSQL",
-                    "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/postgresql/postgresql-plain.svg"
-                },
-                {
-                    "name":"HTML5",
-                    "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/html5/html5-plain.svg"
-                },
-                {
-                    "name":"CSS3",
-                    "svg":"https://raw.githubusercontent.com/Azevedo-Erick/devicon/master/icons/css3/css3-plain.svg"
                 }
-            ]
+                ]
         }
     ],
     "languages":[
