@@ -4,7 +4,7 @@
     <StartPart/>
     <AboutMe/>
     <Skills/>
-    <Labs/>
+    <Laboratorio/>
     <Contact/>
     <Footer/>
   </div>
@@ -15,7 +15,7 @@ import NavegationBar from './components/NavegationBar.vue';
 import StartPart from './components/StartPart.vue';
 import AboutMe from './components/AboutMe.vue';
 import Skills from './components/Skills.vue';
-import Labs from './components/Labs.vue'
+import Laboratorio from './components/Laboratorio.vue'
 import Contact from './components/Contact.vue';
 import Footer from './components/footer.vue';
 export default {
@@ -25,7 +25,7 @@ export default {
     StartPart,
     AboutMe,
     Skills,
-    Labs,
+    Laboratorio,
     Contact,
     Footer
   }

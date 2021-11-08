@@ -47,9 +47,7 @@
          <Title text="Contact" />
 
       <p>
-        Pareço interessante? Vamos conversar sobre esse mundo de código, mas se
-        não quiser, tudo bem. Também há várias outras coisas para conversarmos
-        :P. Você manda a mensagem.
+        Pareço interessante? Se sim, vamos conversar. Seja sobre emprego, código, bitcoin, games ou o que quer que seja o assunto, o que aparecer eu topo. Aqui embaixo você pode ter acesso a minhas principais rede sociais.
       </p>
       </div>
     </div>

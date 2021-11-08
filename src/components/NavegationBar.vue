@@ -13,7 +13,7 @@
         <div class="navegation" id="nav">
             <a @click="scrollTo('about')">About</a>
             <a @click="scrollTo('skills')">Skills</a>
-            <a @click="scrollTo('labs')">Labs</a>
+            <a @click="scrollTo('laboratorio')">Laboratório</a>
             <a @click="scrollTo('contact')">Contact</a>
         </div>
     </nav>
