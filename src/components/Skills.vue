@@ -123,6 +123,8 @@ export default {
   padding: 15px;
   background-color: rgba(0, 0, 0, 0.938);
   border-radius: 15px;
+
+  justify-items: center;
 }
 .icon{
   width: 48px;

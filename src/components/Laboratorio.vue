@@ -16,6 +16,7 @@
             <rect class="rect" width="2" height="2" x="8" y="8" rx=".5" ry=".5"/>
           </g>
         </svg>
+        
           <div class="button-container" @click="toggleList()">
                 <div class="button" id="button">
                 </div>
@@ -69,7 +70,6 @@ export default {
           parseInt(window.getComputedStyle(a.parentElement, null).getPropertyValue('padding-right').split("px")[0])* 2 
           + "px"
           this.turnIntoList();
-          /* console.log(document.querySelector(".button-container>.button")) */
         }else{
            a.style.marginLeft  = 0 + "px"
            this.turnIntoGrid();
@@ -90,7 +90,7 @@ export default {
         const element = document.getElementsByClassName("cards-contaner")[0];
          element.style.display = "grid";
          element.style.gridGap = "15px";
-         element.style.gridTemplateColumns = "repeat(auto-fill, minmax(300px,auto))";
+         element.style.gridTemplateColumns = `repeat(auto-fill, minmax(300px,auto))`;
         element.style.width = "auto";
       },
       nulifyStyle(){
@@ -107,7 +107,7 @@ export default {
     },
   components: {
     CardLaboratorio,
-    Title
+    Title,
   },
 };
 </script>
@@ -119,6 +119,7 @@ export default {
 }
 
 .cards-contaner{
+  justify-items: center;
     width: auto;
     padding: 15px; 
     background-color: #000000ef;
