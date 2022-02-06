@@ -126,4 +126,18 @@ export default {
 .download-cv:hover {
   border: rgb(196, 196, 196) 3px solid;
 }
+@media (max-width: 600px){
+  .particles{
+    left: 0;
+    top: 100px;
+    width: 95%;
+    height: 63vh;
+  }
+  .description {
+  margin-bottom: 45px;
+}
+.download-cv{
+  margin-left: 20vw;
+}
+}
 </style>

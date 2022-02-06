@@ -36,7 +36,7 @@
         <CardLaboratorio
           :name="project.name"
           :description="project.description"
-          :languages="project.techs"
+          :languages="project.languages"
           :url="project.url"
         />
       </div>
@@ -46,14 +46,15 @@
 
 <script>
 import CardLaboratorio from "./widgets/CardLaboratorio.vue";
-import data from "../../public/shared/data.json";
 import Title from './widgets/Title.vue';
+
 export default {
     data(){
         return {projects:[], isList:false}
     },
     created: function(){
-        this.projects = data.projects;
+      
+        this.projects = this.loadData();
     },
     mounted(){
       this.loadList();
@@ -103,6 +104,50 @@ export default {
         element.style.display = "none";
          element.style.gridGap = "none";
          element.style.gridTemplateColumns = "none";
+      },
+      loadData(){
+        let data = [];
+        fetch("https://api.github.com/users/Azevedo-Erick/repos").then(((response)=>{
+          response.json().then((res)=>{
+            console.log(res.length)
+            for(let i=0;i<res.length;i++){
+              if(res[i].owner.login=="Azevedo-Erick" && res[i].description!=null && res[i].fork==false){
+                let project = {
+                  name:"",
+                  description:"",
+                  languages:[],
+                  url:""
+                }
+                let formated = (res[i].name.replace(/_|-/g," "))
+                
+                project.name = formated.toUpperCase();
+                project.description=res[i].description;
+                project.url=res[i].html_url;
+                fetch(res[i].languages_url).then((results)=>{
+                  results.json().then((languages)=>{
+                    for(let lang in languages){
+                      lang = lang.replace(/_|-/g,"")
+                      if(lang.toLowerCase()=="html"){
+                        project.languages.push(lang+""+5)
+                      }else if(lang.toLowerCase()=="css"){
+                        project.languages.push(lang+""+3)
+                      }else if(lang.toLowerCase()=="scss"){
+                        console.log("Não tem scss no repositório")
+                      }else if(lang.toLowerCase()=="vue"){
+                        project.languages.push("vuejs")
+                      }else{
+                        project.languages.push(lang)
+                      }
+                    }
+                  })
+                })
+                data.push(project)
+              }
+            }
+          })
+        }))
+        return data;
+       
       }
     },
   components: {
