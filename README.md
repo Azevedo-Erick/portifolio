@@ -1,24 +1,6 @@
-# portifolio
+## Introdução
 
-## Project setup
-```
-npm install
-```
+Olá, esse é meu portifólio, nele você pode saber um pouco sobre mim, sobre a minha jornada até aqui e encontrar meios para me contatar. 
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Aqui está o link: [🔗](portifolio-nu-black.vercel.app)
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
